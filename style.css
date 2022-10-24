@@ -1,0 +1,55 @@
+.text:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.lang1 {
+    transform:translateX(70%);
+}
+
+.lang2 {
+    transform:translateX(20%);
+}
+
+.lang3 {
+    transform:translateX(10%);
+}
+
+.lang4 {
+    transform:translateX(30%)
+}
+
+.lang5 {
+    transform:translateX(70%)
+}
+
+.lang6 {
+    transform:translateX(-70%)
+}
+
+.lang7 {
+    transform:translateX(-20%)
+}
+
+.lang8 {
+    transform:translateX(-10%)
+}
+
+.lang9 {
+    transform:translateX(-30%)
+}
+
+.lang10 {
+    transform:translateX(-70%)
+}
+
+@media only screen and (max-width: 768px) {
+    .lang1, .lang2, .lang3, .lang4, .lang5,
+    .lang6, .lang7, .lang8, .lang9, .lang10, 
+    .left, .right {
+        transform: translate(0%);
+    }
+
+
+}
